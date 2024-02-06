@@ -1,0 +1,8 @@
+[
+    {"timestamp": "2018-12-26 19:00:30.000000","translation_id": "5aa5b2f39f7254a75ii1","source_language": "en","target_language": "fr","client_name": "taxi-eats","event_name": "translation_delivered","nr_words": 60, "duration": 45},
+    {"timestamp": "2018-12-26 19:10:45.000000","translation_id": "5aa5b2f39f7254a75jj2","source_language": "en","target_language": "fr","client_name": "airliberty","event_name": "translation_delivered","nr_words": 70, "duration": 50},
+    {"timestamp": "2018-12-26 19:20:15.000000","translation_id": "5aa5b2f39f7254a75kk3","source_language": "en","target_language": "fr","client_name": "airliberty","event_name": "translation_delivered","nr_words": 80, "duration": 55},
+    {"timestamp": "2018-12-26 19:30:20.000000","translation_id": "5aa5b2f39f7254a75ll4","source_language": "en","target_language": "fr","client_name": "taxi-eats","event_name": "translation_delivered","nr_words": 90, "duration": 60},
+    {"timestamp": "2018-12-26 19:40:10.000000","translation_id": "5aa5b2f39f7254a75mm5","source_language": "en","target_language": "fr","client_name": "taxi-eats","event_name": "translation_delivered","nr_words": 100, "duration": 65},
+    {"timestamp": "2018-12-26 19:50:50.000000","translation_id": "5aa5b2f39f7254a75nn6","source_language": "en","target_language": "fr","client_name": "airliberty","event_name": "translation_delivered","nr_words": 110, "duration": 70}
+]
