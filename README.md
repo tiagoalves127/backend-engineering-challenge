@@ -1,15 +1,32 @@
-# Backend Engineering Challenge
+# Unbabel Backend Engineering Challenge
 
 
-Welcome to our Engineering Challenge repository 🖖
+Welcome to Unbabel Engineering Challenge 2024 🖖
+I've left the challenge scenario and challenge objective under for some context.
 
-If you found this repository it probably means that you are participating in our recruitment process. Thank you for your time and energy. If that's not the case please take a look at our [openings](https://unbabel.com/careers/) and apply!
+The project was built with Python version 3.12.1
 
-Please fork this repo before you start working on the challenge, read it careful and take your time and think about the solution. Also, please fork this repository because we will evaluate the code on the fork.
+I've also included 3 files with example data, for testing purposes, to keep it simple. 
 
-This is an opportunity for us both to work together and get to know each other in a more technical way. If you have any questions please open and issue and we'll reach out to help.
+## Prerequisites
+- Python 3.x
 
-Good luck!
+## Usage
+To use the application, follow these steps:
+
+1. Clone the repository
+```sh
+git clone https://github.com/tiagoalves127/backend-engineering-challenge.git
+```
+2. Nagivate to the directory of the project
+```sh
+cd backend-engineering-challenge
+```
+3. Run the following command in your terminal:
+```sh
+python unbabel_cli.py --input_file [INPUT_PATH] --window_size [SIZE] [--output_file [OUTPUT_PATH]]
+```
+Replace [INPUT_PATH] with the path to your input JSON file containing the events data, [SIZE] with the window size for calculating the moving average, and,optionally, [OUTPUT_PATH] with the desired path for the output file.
 
 ## Challenge Scenario
 
@@ -68,19 +85,3 @@ The output file would be something in the following format.
 {"date": "2018-12-26 18:23:00", "average_delivery_time": 31}
 {"date": "2018-12-26 18:24:00", "average_delivery_time": 42.5}
 ```
-
-#### Notes
-
-Before jumping right into implementation we advise you to think about the solution first. We will evaluate, not only if your solution works but also the following aspects:
-
-+ Simple and easy to read code. Remember that [simple is not easy](https://www.infoq.com/presentations/Simple-Made-Easy)
-+ Comment your code. The easier it is to understand the complex parts, the faster and more positive the feedback will be
-+ Consider the optimizations you can do, given the order of the input lines
-+ Include a README.md that briefly describes how to build and run your code, as well as how to **test it**
-+ Be consistent in your code. 
-
-Feel free to, in your solution, include some your considerations while doing this challenge. We want you to solve this challenge in the language you feel most comfortable with. Our machines run Python (3.7.x or higher) or Go (1.16.x or higher). If you are thinking of using any other programming language please reach out to us first 🙏.
-
-Also, if you have any problem please **open an issue**. 
-
-Good luck and may the force be with you
